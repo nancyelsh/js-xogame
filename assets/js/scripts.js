@@ -70,9 +70,10 @@ function Board(board) {
 
       if (isWinningCombo) {
         winner = true;
-        winningCombo.forEach(
-          (index) => (positions[index].className += "winner") // يميز السطر الرابح class أضف
-        );
+        // يميز السطر الرابح class أضف
+        winningCombo.forEach((index) => {
+          positions[index].className = "winner";
+        });
       }
     });
     return winner;

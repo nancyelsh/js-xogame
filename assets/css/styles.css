@@ -36,5 +36,11 @@ h1 {
 }
 
 .winner {
-  background-color: palevioletred;
+  color: palevioletred;
+  height: 100px;
+  width: 100px;
+  float: left;
+  font-size: 100px;
+  text-align: center;
+  line-height: 100px;
 }
